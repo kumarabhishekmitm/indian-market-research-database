@@ -1,0 +1,41 @@
+
+# Python environments and cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Local databases and database journals
+data/*.db
+data/*.db-*
+data/**/*.db
+data/**/*.db-*
+
+# Personal workbooks and backups
+data/Market_Database.xlsx
+data/backups/
+*.bak
+*.backup
+
+# Runtime logs
+*.log
+data/**/run_log.txt
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
+*.tmp

@@ -1,0 +1,7 @@
+======================================================================
+DATA QUALITY REPORT — generated 2026-10-17 22:23:29
+======================================================================
+
+Total issues logged: 0
+
+No data quality issues found. Every row loaded cleanly.
