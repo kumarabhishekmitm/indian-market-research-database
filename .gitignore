@@ -39,3 +39,9 @@ data/**/run_log.txt
 Thumbs.db
 ~$*
 *.tmp
+
+# Generated reports
+reports/
+
+# Temporary test artifacts
+.pytest_tmp/
